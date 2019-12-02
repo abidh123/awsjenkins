@@ -15,15 +15,18 @@
       <!-- Assume test is the database name -->
       
       <property name = "hibernate.connection.url">
-         jdbc:mysql://localhost:3306/test
+        <!--  jdbc:mysql://localhost:3306/test -->
+              jdbc:mysql://database-1.c86e57eseq9j.ap-southeast-1.rds.amazonaws.com:3306/test
       </property>
       
       <property name = "hibernate.connection.username">
-         root
+         <!--  root -->
+         admin
       </property>
       
       <property name = "hibernate.connection.password">
-         root
+         <!--  root -->
+         staysmartsolutions
       </property>
       
   <!-- <property name="hbm2ddl.auto">create</property>--> 
