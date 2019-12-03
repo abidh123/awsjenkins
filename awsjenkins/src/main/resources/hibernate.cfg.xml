@@ -44,7 +44,8 @@
 		<!-- SPATIAL SQL dialect -->
 		<!--<property name="dialect">org.hibernatespatial.mysql.MySQLSpatialDialect 
 			</property> -->
-		<property name="dialect">org.hibernatespatial.mysql.MySQLSpatialInnoDBDialect</property>
+		  <property name="dialect">org.hibernate.spatial.dialect.mysql.MySQLSpatialDialect</property>
+		 <!--   <property name="dialect">org.hibernate.spatial.mysql.MySQLSpatialInnoDBDialect</property> -->
 		<!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
 
 		<!-- Mapping files -->
