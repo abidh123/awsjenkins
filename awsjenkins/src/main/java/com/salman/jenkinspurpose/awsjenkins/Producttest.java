@@ -41,7 +41,7 @@ public class Producttest {
         Configuration con=new Configuration().configure().addAnnotatedClass(Product.class);
         SessionFactory sf=con.buildSessionFactory();
         Session session=sf.openSession();
-        Transaction tx=session.beginTransaction();
+        
         String sql="SELECT * FROM product";
         SQLQuery query=session.createSQLQuery(sql);
         query.setResultTransformer(Transformers.aliasToBean(Product.class));
@@ -53,7 +53,7 @@ public class Producttest {
       	  System.out.println(p.getPid()+""+p.getName()+""+p.getBrandname());
         }
         
-        
+       
 		
 		return list;
 	
