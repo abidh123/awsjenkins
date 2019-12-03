@@ -27,10 +27,10 @@
 		<!-- Use the C3P0 connection pool provider -->
 		<property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
 		<property name="hibernate.c3p0.acquire_increment">1</property>
-		<property name="hibernate.c3p0.max_size">5</property>
+		<property name="hibernate.c3p0.max_size">20</property>
 		<property name="hibernate.c3p0.max_statements">20</property>
 		<property name="hibernate.c3p0.min_size">5</property>
-		<property name="hibernate.c3p0.timeout">120</property>
+		<property name="hibernate.c3p0.timeout">300</property>
 		<property name="hibernate.c3p0.max_idle_time">180</property>
 		<property name="hibernate.c3p0.idle_test_period">100</property>
 		<property name="hibernate.c3p0.maxAdministrativeTaskTime">6</property>
