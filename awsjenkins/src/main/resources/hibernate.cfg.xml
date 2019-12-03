@@ -9,9 +9,9 @@
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="hibernate.jdbc.use_get_generated_keys">true></property>
 
-		<property name="hibernate.connection.url">jdbc:mysql://database-1.czworo7t6ilj.ap-southeast-1.rds.amazonaws.com:3306/iot</property>
-		<property name="hibernate.connection.username">test</property>
-		<property name="hibernate.connection.password">staysmartsolutions123</property>
+		<property name="hibernate.connection.url">jdbc:mysql://database-1.c86e57eseq9j.ap-southeast-1.rds.amazonaws.com:3306/test</property>
+		<property name="hibernate.connection.username">admin</property>
+		<property name="hibernate.connection.password">staysmartsolutions</property>
 
            <!--  <property name="hibernate.connection.url">jdbc:mysql://database-1.czworo7t6ilj.ap-southeast-1.rds.amazonaws.com:3306/iot</property> 
 			<property name="hibernate.connection.username">test</property> 
